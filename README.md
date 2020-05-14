@@ -1,10 +1,10 @@
 # Feed Tracker Telegram Bot
-A bot for telegram that periodically checks for changes in a pages and sends a message if a change has occured.
+A bot for telegram that periodically checks for changes on rss pages and sends a message if a change has occured.
 
-### Usage
-New bot needs to be created using *BotFather* from telegram
+## Usage
+New bot needs to be created using *BotFather* from telegram. Instructions can be found in the following [link](https://core.telegram.org/bots). After the bot is created the API token needs to be added to the config.py file.
 
-After this code is run the user needs to add the bot through telegram and send the `/start`command.
+The bot can be run by sending the `/start` command needs to be sent to it.
 
 In order to `/add` a new website to be tracked the best approach is to send the following command 
 `/add https://seths.blog/feed/` 
