@@ -1,15 +1,16 @@
+#!/usr/bin/python3
 import os, sys
 import pandas
 import threading
 
-from config import TOKEN
-from Tracker import Tracker
-from Bot import Bot
+from webtracker.config import TOKEN
+from webtracker.tracker2 import Tracker
+from webtracker.bot import Bot
 
 
 def main():
    try:
-      tr = Tracker(TOKEN, refresh_time=60)
+      tr = Tracker(TOKEN, refresh_time=10)
       tr.start()
 
       bot = Bot(tr, TOKEN)

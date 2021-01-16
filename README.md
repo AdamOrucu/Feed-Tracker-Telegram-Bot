@@ -1,4 +1,4 @@
-# Feed Tracker Telegram Bot
+# Web Tracker Telegram Bot
 A bot for telegram that periodically checks for changes on rss pages and sends a message if a change has occured.
 
 ## Usage
